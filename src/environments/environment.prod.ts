@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUri: 'https://api-tracky.nicomv.com/'
+  apiUri: 'https://tracky.glitch.me/'
 };
