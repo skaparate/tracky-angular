@@ -3,12 +3,13 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 import { Issue } from './issue.model';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class IssuesService {
-  private apiUri = '/api/issues';
+  private apiUri = `${environment.apiUri}api/issues`;
 
   constructor(private http: HttpClient) {}
 

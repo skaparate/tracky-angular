@@ -4,12 +4,13 @@ import { Observable, of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 import { Project } from './project.model';
 import { ProjectList } from './project-list/project-list.model';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ProjectsService {
-  private apiUrl: string = '/api/projects';
+  private apiUrl: string = `${environment.apiUri}api/projects`;
 
   constructor(private http: HttpClient) {}
 
