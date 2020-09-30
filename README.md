@@ -1,10 +1,10 @@
 # Tracky Angular
 
-This is the [Angular Tracky web client](https://tracky-angular.nicomv.com/) (live sample), which is the front end for the Free Code Camp's *Information Security and Quality Assurance Projects - Issue Tracker* API project.
+This is the [Angular Tracky web client](https://tracky-angular.nicomv.com/) (live sample), which is the front end for the Free Code Camp's *Information Security and Quality Assurance Projects - Issue Tracker* API project. This client is running in vercel.com (formerly zeit.co).
 
 The project is proxied for local development, which can be configured in the file `proxy.config.json`. By default, the proxy translates every request that starts with *api/* to `localhost:3100`.
 
-The API can be downloaded/cloned from https://github.com/skaparate/fcc-issue-tracker.
+The API can be downloaded/cloned from https://github.com/skaparate/fcc-issue-tracker and it's currently running on Heroku.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
